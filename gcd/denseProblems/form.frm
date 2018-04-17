@@ -21,7 +21,7 @@ Symbols x1, x2, x3, x4, x5, x6, x7;
 
 
 #$tstart = `timer_';
-#$gcd = gcd_(#$agt, $bg);
+#$gcd = gcd_($agt, $bg);
 #$tend = `timer_';
 
 #$dt = ($tend - $tstart);
